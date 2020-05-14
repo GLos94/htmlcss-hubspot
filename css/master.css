@@ -1,0 +1,94 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  font-family: 'Open-sans', sans-serif;
+}
+.centratura{
+  padding: 0 5%;
+}
+.orangebutton{
+  background-color: orange;
+  line-height: 20px;
+  color: white;
+  padding: 2% 2%;
+}
+header{
+  height: 600px;
+  background-color: pink;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+
+}
+main{
+  height: 800px;
+  background-color: #e3ecf5;
+}
+footer{
+  height: 200px;
+  background-color: green;
+}
+ /* regole header */
+
+  #selezione-lingua{
+   padding: 1% 0;
+   background-color: #e3ecf5;
+   border-bottom: 2px solid lightgrey
+ }
+  #menu-navigazione{
+    background-color: white;
+    height: 66px;
+    padding-top: 2%
+
+  }
+
+ .riga{
+   content: "";
+   display: table;
+   clear: both;
+   width: 100%;
+ }
+
+ .colonna50{
+   float: left;
+   /* background-color: lightgrey; */
+   width: 50%;
+   /* height: 20px; */
+ }
+
+ #selezionelingua, a{
+   text-decoration: none;
+   display: inline-block;
+   color: grey;
+   padding-right: 20px
+ }
+
+/* regole navbar */
+
+ .lingua-contattaci{
+   padding-top: 2%;
+ }
+
+ .login{
+   padding-left: 33%
+ }
+
+  li{
+   display: inline-block;
+   color: grey
+ }
+
+ #logo{
+   padding-bottom: 2%
+ }
+
+/* sezione jumbo */
+
+#jumbo, p{
+  padding: 3% 0;
+}
