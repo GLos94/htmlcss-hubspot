@@ -9,9 +9,7 @@
   font-family: 'Open-sans', sans-serif;
 }
 
-.centratura{
-  padding: 0 5%;
-}
+
 
 .orangebutton{
   background-color: orange;
@@ -64,6 +62,7 @@ footer{
    float: left;
    /* background-color: lightgrey; */
    width: 50%;
+   padding: 0 5%
    /* height: 20px; */
  }
 
@@ -109,6 +108,9 @@ footer{
   width:20%
 }
 .collaborazione{
-  padding-right: 2%;
   text-align: center;
+  margin: 0 auto;
+}
+.centratura{
+  padding: 0 5%;
 }
