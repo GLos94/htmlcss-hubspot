@@ -7,6 +7,7 @@
 
 *{
   font-family: 'Open-sans', sans-serif;
+  color: #33475b;
 }
 
 
@@ -80,13 +81,19 @@ footer{
  }
 
  .login{
-   padding-left: 33%
+   padding-left: 47%
  }
 
   li{
    display: inline-block;
-   color: grey
+   color: grey;
  }
+  a:hover{
+   color: orange;
+  }
+  li:hover{
+   color: orange
+  }
 
  #logo{
    padding-bottom: 2%
@@ -105,12 +112,40 @@ footer{
 }
 
 .libro{
-  width:20%
+  /* width:20% */
+  height: 110px;
+  margin: 11% 14%;
+}
+.colonna20 .orangebutton{
+  margin-left: 65px
 }
 .collaborazione{
   text-align: center;
   margin: 0 auto;
 }
+
+
+.colonna20{
+  width: 20%;
+  height: 250px;
+  float: left;
+  background-color: white
+}
+.colonna80{
+  width: 80%;
+  height: 250px;
+  float: left;
+  background-color: white;
+  padding-top:2%
+}
+.colonna80 li{
+  margin-right: 15px
+}
+h4{
+  padding-bottom: 23px;
+}
+
+
 .centratura{
   padding: 0 5%;
 }
