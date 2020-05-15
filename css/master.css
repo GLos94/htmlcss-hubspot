@@ -11,12 +11,12 @@
 }
 
 i{
-  color: orange;
+  color: #ff7a59;
 }
 
 
 .orangebutton{
-  background-color: orange;
+  background-color: #ff7a59;
   line-height: 20px;
   color: white;
   padding: 2% 2%;
@@ -50,6 +50,7 @@ footer{
    z-index: 999;
  }
 
+ 
   #menu-navigazione{
     background-color: white;
     height: 66px;
@@ -93,10 +94,10 @@ footer{
    color: grey;
  }
   a:hover{
-   color: orange;
+   color: #ff7a59;
   }
   li:hover{
-   color: orange
+   color: #ff7a59;
   }
 
  #logo{
@@ -128,7 +129,10 @@ footer{
   margin: 0 auto;
 }
 
-
+.riga-laterale hr{
+  display: inline-block;
+  line-height: 50px
+}
 .colonna20{
   width: 20%;
   height: 250px;
@@ -217,7 +221,7 @@ footer{
 }
 
 /* da centralizzare */
-h4{
+/* h4{ */
   border-top: 2px solid grey;
 }
 
@@ -360,8 +364,6 @@ h6{
 }
 
 
-
-
 .centratura{
-  padding: 0 5%;
+  padding: 0 10%;
 }
