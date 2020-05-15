@@ -32,13 +32,13 @@ header{
 }
 
 main{
-  /* height: 1000px; */
   background-color: #e3ecf5;
 }
 
 footer{
-  height: 100px;
-  background-color: green;
+  /* height: 200px; */
+  background-color: #33475b;
+  padding: 3% 6%
 }
 
  /* regole header */
@@ -46,7 +46,8 @@ footer{
   #selezione-lingua{
    padding: 1% 0;
    background-color: #e3ecf5;
-   border-bottom: 2px solid lightgrey
+   border-bottom: 2px solid lightgrey;
+   z-index: 999;
  }
 
   #menu-navigazione{
@@ -64,10 +65,8 @@ footer{
 
  .colonna50{
    float: left;
-   /* background-color: lightgrey; */
    width: 50%;
    padding: 0 5%
-   /* height: 20px; */
  }
 
  #selezionelingua, a{
@@ -286,6 +285,82 @@ span{
 .scritte-inferiori{
   color: white
 }
+
+/* sezione testimonianze */
+.colonna20{
+  width: 20%
+}
+.colonna80{
+  width: 80%
+}
+.colonna50{
+  width: 50%
+}
+
+#num-utenti{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10% 8%;
+  padding-left: 25%
+}
+#utenti{
+  padding-left: 32%
+}
+.colonna80 ul{
+  /* padding-left: 20% */
+}
+
+.colonna80 li{
+  display: inline-block;
+  text-align: center;
+  padding: 1% 2%;
+}
+
+
+.immagini-aziende{
+  height: 20px;
+}
+
+#testimonianze .colonna50{
+  background-color: white
+}
+
+.ragazza{
+  width: 45%;
+  padding: 0 6%;
+}
+
+/* regole footer */
+.colonna25{
+  width: 25%;
+  float: left;
+}
+h6{
+  color: white;
+  font-size: 20px
+}
+.colonna25 li{
+  color: white;
+  list-style: none;
+}
+
+.scelta-lingue ul{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3%
+}
+.scelta-lingue li{
+  display: inline-block;
+  list-style: none;
+  color: white;
+}
+
+.copyright{
+  color: white;
+}
+
+
+
 
 .centratura{
   padding: 0 5%;
