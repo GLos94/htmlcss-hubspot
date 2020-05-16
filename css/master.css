@@ -3,9 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-*{
   font-family: 'Open-sans', sans-serif;
   color: #33475b;
 }
@@ -14,7 +11,6 @@ i{
   color: #ff7a59;
 }
 
-
 .orangebutton{
   background-color: #ff7a59;
   line-height: 20px;
@@ -22,13 +18,20 @@ i{
   padding: 2% 2%;
 }
 
+ .orangebutton-main{
+   background-color: #ff7a59;
+   line-height: 20px;
+   color: white;
+   padding: 4% 4%;
+ }
+
 header{
-  height: 600px;
-  background-color: pink;
+  height: 700px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: cover;
+
 }
 
 main{
@@ -44,13 +47,12 @@ footer{
  /* regole header */
 
   #selezione-lingua{
-   padding: 1% 0;
+   padding: 1% 8%;
    background-color: #e3ecf5;
    border-bottom: 2px solid lightgrey;
    z-index: 999;
  }
 
- 
   #menu-navigazione{
     background-color: white;
     height: 66px;
@@ -65,9 +67,8 @@ footer{
  }
 
  .colonna50{
-   float: left;
    width: 50%;
-   padding: 0 5%
+   float: left;
  }
 
  #selezionelingua, a{
@@ -77,6 +78,11 @@ footer{
    padding-right: 20px
  }
 
+ .linea{
+   border-bottom: 13px solid darkgrey;
+   display: inline-block;
+ }
+
 /* regole navbar */
 
  .lingua-contattaci{
@@ -84,18 +90,26 @@ footer{
  }
 
  .login{
-   padding-left: 47%
+   padding-left: 58%
  }
+
   #menu-navigazione li{
    display: inline-block;
  }
+
+ .main-nav{
+   padding-left: 12%
+ }
+
   #better-together li{
    display: inline-block;
    color: grey;
  }
+
   a:hover{
    color: #ff7a59;
   }
+
   li:hover{
    color: #ff7a59;
   }
@@ -104,7 +118,8 @@ footer{
    padding-bottom: 2%
  }
 
-/* sezione jumbo */
+/* sezione jumbotron */
+
 
 #jumbo, p{
   padding: 3% 0;
@@ -116,10 +131,16 @@ footer{
   padding-top: 3%
 }
 
+.colonna20{
+  text-align: center;
+  margin: 0 auto
+}
+
 .libro{
-  /* width:20% */
-  height: 110px;
-  margin: 11% 14%;
+  width:50%;
+  margin-top: 20%;
+  margin-left: 4%;
+  margin-bottom: 6%
 }
 .colonna20 .orangebutton{
   margin-left: 65px
@@ -133,6 +154,7 @@ footer{
   display: inline-block;
   line-height: 50px
 }
+
 .colonna20{
   width: 20%;
   height: 250px;
@@ -140,6 +162,7 @@ footer{
   background-color: white;
   border-radius: 5px;
 }
+
 .colonna80{
   width: 80%;
   height: 250px;
@@ -148,13 +171,21 @@ footer{
   padding-top:2%;
   border-radius: 5px;
 }
+
 .colonna80 li{
   margin-right: 15px
 }
 
 .colonna80 h4{
   padding-bottom: 23px;
+  display: inline-block;
 }
+
+hr{
+  width: 68%;
+  display: inline-block;
+}
+
 
 /* sezione servizi offerti */
 
@@ -164,19 +195,22 @@ footer{
   clear: both;
 }
 
-
-.colonna1{
+colonna1{
   width:32%
 }
 
 .hub1{
   background-color: white;
-  /* width: 32%; */
-  margin: 6% 0;
+  width: 32%;
+  margin: 2% 0;
   text-align: center;
   float: left;
-  padding-bottom: 6%;
+  padding-bottom: 1.9%;
   border-radius: 5px;
+}
+
+.hub1 h4{
+  padding: 9% 0;
 }
 
 .hub2{
@@ -211,7 +245,7 @@ footer{
 
 .imm-hub{
   /* width:20% */
-  height: 110px;
+  height: 100px;
   margin: 11% 14%;
 }
 
@@ -241,6 +275,7 @@ h5{
   font-size: 20px;
   padding-bottom: 6%
 }
+
 span{
   padding: 0 3%
 }
@@ -279,6 +314,7 @@ span{
   margin: 0 auto;
   color: white
 }
+
 .numeri-grassetto{
   font-size: 30px;
   font-weight: bold;
@@ -290,15 +326,28 @@ span{
   color: white
 }
 
+#potenziale-crescita .riga:first-child{
+  border-bottom: 2px solid white;
+}
+
+.quadrato1, .quadrato2, .quadrato3{
+  border-right: 1px solid white;
+}
+
 /* sezione testimonianze */
 .colonna20{
   width: 20%
 }
+
+#testimonianze .colonna20{
+  padding: 0 8%
+}
 .colonna80{
   width: 80%
 }
-.colonna50{
-  width: 50%
+
+#testimonianze .colonna50{
+  padding: 0 8%
 }
 
 #num-utenti{
@@ -365,5 +414,5 @@ h6{
 
 
 .centratura{
-  padding: 0 10%;
+  padding: 0 8%;
 }
