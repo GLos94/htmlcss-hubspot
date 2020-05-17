@@ -131,7 +131,7 @@ footer{
   padding-top: 3%
 }
 
-.colonna20{
+#better-together .colonna20{
   text-align: center;
   margin: 0 auto
 }
@@ -355,10 +355,11 @@ span{
   font-size: 30px;
   font-weight: bold;
   margin: 10% 8%;
-  padding-left: 25%
+  /* padding-left: 25% */
 }
+
 #utenti{
-  padding-left: 32%
+  /* padding-left: 32% */
 }
 .colonna80 ul{
   /* padding-left: 20% */
@@ -373,13 +374,20 @@ span{
 .quadrato{
   width: 20%;
   float: left;
-  padding: 0 4%
+  padding: 0 4%;
+  margin-top: 2%
 }
 
 .immagini-aziende{
-  height: 20px;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, -50%);
 }
 
+#testimonianze .colonna20{
+  padding: 2% 8%;
+}
 #testimonianze .colonna50{
   background-color: white
 }
@@ -394,10 +402,12 @@ span{
   width: 25%;
   float: left;
 }
+
 h6{
   color: white;
   font-size: 20px
 }
+
 .colonna25 li{
   color: white;
   list-style: none;
