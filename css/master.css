@@ -39,7 +39,7 @@ main{
 }
 
 footer{
-  /* height: 200px; */
+  height: 550px;
   background-color: #33475b;
   padding: 3% 6%
 }
@@ -244,7 +244,6 @@ colonna1{
 }
 
 .imm-hub{
-  /* width:20% */
   height: 100px;
   margin: 11% 14%;
 }
@@ -281,6 +280,7 @@ span{
 }
 
 /* sezione potenziale crescita */
+
 #potenziale-crescita{
   background-color: #00bda5;
   padding: 4% 0;
@@ -290,9 +290,7 @@ span{
 .quadrato1, .quadrato2, .quadrato3, .quadrato4{
   float: left;
   width: 25%;
-  /* height: 80px; */
   background-color: #00bda5;
-  /* border: 1px solid white; */
   padding: 4% 0;
 }
 
@@ -339,31 +337,29 @@ span{
   width: 20%
 }
 
-/* #testimonianze .colonna20{ */
-  padding: 0 8%
-}
 
 .colonna80{
   width: 80%
 }
 
 #testimonianze .colonna50{
-  padding: 0 8%
+  padding: 0 8%;
+  background-color: white
 }
 
 #num-utenti{
   font-size: 30px;
   font-weight: bold;
   margin: 10% 8%;
-  /* padding-left: 25% */
+  padding-left: 32%;
 }
 
 #utenti{
-  /* padding-left: 32% */
+  padding-left: 41%;
+  line-height: 163%;
+  font-size: 88%;
 }
-.colonna80 ul{
-  /* padding-left: 20% */
-}
+
 
 .colonna80 li{
   display: inline-block;
@@ -375,7 +371,7 @@ span{
   width: 20%;
   float: left;
   padding: 0 4%;
-  margin-top: 2%
+  margin-top: 2%;
 }
 
 .immagini-aziende{
@@ -385,27 +381,38 @@ span{
   transform: translate(150%, -50%);
 }
 
-#testimonianze .colonna20{
-  padding: 2% 8%;
-}
-#testimonianze .colonna50{
-  background-color: white
+
+#testimonianze h1{
+  padding-bottom: 6%;
 }
 
-.ragazza{
-  width: 45%;
-  padding: 0 6%;
+#testimonianze .colonna50 p{
+  padding: 10% 0;
+}
+
+#ragazza{
+  width: 60%;
+  transform: translate(54%, -12%);
 }
 
 /* regole footer */
+
 .colonna25{
   width: 25%;
   float: left;
+  font-size: 85%;
 }
 
 h6{
   color: white;
-  font-size: 20px
+  font-size: 20px;
+  padding-left: 6%;
+  padding-bottom: 10%;
+  font-size: 120%;
+}
+
+.colonna25 li{
+  padding-bottom: 6%
 }
 
 .colonna25 li{
@@ -416,18 +423,38 @@ h6{
 .scelta-lingue ul{
   text-align: center;
   margin: 0 auto;
-  padding-top: 3%
+  padding-top: 15%;
+  font-size: 85%;
 }
+
 .scelta-lingue li{
   display: inline-block;
   list-style: none;
   color: white;
+  padding-right: 3%
+}
+
+footer hr{
+  width: 100%
+}
+
+.ultima-barra .colonna50{
+  padding-top: 1%
 }
 
 .copyright{
   color: white;
 }
 
+.condizioni-privacy{
+  color: white;
+  font-size: 85%;
+}
+
+
+.condizioni-privacy:first-child{
+  padding-left: 50%
+}
 
 .centratura{
   padding: 0 8%;
