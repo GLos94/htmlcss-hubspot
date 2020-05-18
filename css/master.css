@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open-sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #33475b;
 }
 
@@ -19,7 +19,7 @@ i{
   border-radius: 4px;
 }
 
-.grey-button{
+#grey-button{
   background-color: lightgrey;
   line-height: 20px;
   color: #33475b;
@@ -35,7 +35,7 @@ i{
  }
 
 header{
-  height: 700px;
+  height: 660px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -55,16 +55,19 @@ footer{
  /* regole header */
 
   #selezione-lingua{
-   padding: 1% 8%;
+   width: 100%;
+   padding: 1.3% 8%;
    background-color: #e3ecf5;
    border-bottom: 2px solid lightgrey;
+   position: fixed;
    z-index: 999;
  }
 
+
   #menu-navigazione{
     background-color: white;
-    height: 66px;
-    padding-top: 2%
+    height: 145px;
+    padding-top: 7%
   }
 
  .riga::after{
@@ -79,7 +82,8 @@ footer{
    float: left;
  }
 
- #selezionelingua, a{
+
+ #selezione-lingua, a{
    text-decoration: none;
    display: inline-block;
    color: grey;
@@ -98,7 +102,7 @@ footer{
  }
 
  .login{
-   padding-left: 58%
+   padding-left: 46%
  }
 
   #menu-navigazione li{
@@ -133,7 +137,12 @@ footer{
   padding: 3% 0;
 }
 
+.servizi{
+  line-height: 25px;
+}
+
 /* sezione better together */
+
 .cubo{
   width: 15%;
   padding-top: 3%
@@ -150,9 +159,11 @@ footer{
   margin-left: 4%;
   margin-bottom: 6%
 }
+
 .colonna20 .orangebutton{
   margin-left: 65px
 }
+
 .collaborazione{
   text-align: center;
   margin: 0 auto;
@@ -203,10 +214,6 @@ hr{
   clear: both;
 }
 
-colonna1{
-  width:32%
-}
-
 .hub1{
   background-color: white;
   width: 32%;
@@ -241,11 +248,19 @@ colonna1{
   border-radius: 5px;
 }
 
+.hubs{
+  line-height: 25px;
+}
+#servizi-offerti i{
+  padding-right: 5%;
+}
+
 #servizi-offerti li{
   list-style-type: none;
   text-align: left;
   padding: 0 3%;
 }
+
 #servizi-offerti ul{
   padding-left: 5%;
   padding-bottom: 10%;
@@ -261,10 +276,6 @@ colonna1{
   padding-bottom: 9%
 }
 
-/* da centralizzare */
-/* h4{ */
-  border-top: 2px solid grey;
-}
 
 .hub1 h4{
   padding: 9% 0;
@@ -334,20 +345,34 @@ span{
 
 #potenziale-crescita .riga:first-child{
   border-bottom: 1px solid white;
+  border-bottom-left-radius: 6%;
+  border-bottom-right-radius: 6%;
 }
 
 .quadrato1, .quadrato2, .quadrato3{
   border-right: 1px solid white;
 }
 
-/* sezione testimonianze */
 
-.colonna20{
-  width: 20%
+.scritte-inferiori{
+  font-size: 88%;
 }
 
-.colonna80{
-  width: 80%
+/* sezione testimonianze */
+
+.colonna28{
+  width: 28%;
+  float: left;
+}
+
+.colonna72{
+  width: 72%;
+  float: left;
+  margin-top: 2%
+}
+
+.tools{
+  line-height: 25px;
 }
 
 #testimonianze{
@@ -356,30 +381,30 @@ span{
 
 #testimonianze .colonna50{
   padding: 0 8%;
+  padding-top: 8%
 }
 
 #num-utenti{
   font-size: 30px;
   font-weight: bold;
-  margin: 10% 8%;
-  padding-left: 32%;
+  margin: 8% 8%;
+  text-align: center;
 }
 
 #utenti{
-  padding-left: 41%;
+  padding-left: 37%;
   line-height: 163%;
-  font-size: 88%;
+  font-size: 97%;
 }
 
-
-.colonna80 li{
+.colonna72 li{
   display: inline-block;
   text-align: center;
   padding: 1% 2%;
 }
 
 .quadrato{
-  width: 20%;
+  width: 18%;
   float: left;
   padding: 0 4%;
   margin-top: 2%;
@@ -391,7 +416,6 @@ span{
   left: 50%;
   transform: translate(150%, -50%);
 }
-
 
 #testimonianze h1{
   padding-bottom: 6%;
@@ -484,7 +508,6 @@ footer hr{
   color: white;
   font-size: 85%;
 }
-
 
 .condizioni-privacy:first-child{
   padding-left: 50%
