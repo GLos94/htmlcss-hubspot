@@ -16,6 +16,15 @@ i{
   line-height: 20px;
   color: white;
   padding: 2% 2%;
+  border-radius: 4px;
+}
+
+.grey-button{
+  background-color: lightgrey;
+  line-height: 20px;
+  color: #33475b;
+  padding: 2% 2%;
+  border-radius: 4px;
 }
 
  .orangebutton-main{
@@ -31,7 +40,6 @@ header{
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: cover;
-
 }
 
 main{
@@ -39,7 +47,7 @@ main{
 }
 
 footer{
-  height: 550px;
+  height: 650px;
   background-color: #33475b;
   padding: 3% 6%
 }
@@ -333,18 +341,21 @@ span{
 }
 
 /* sezione testimonianze */
+
 .colonna20{
   width: 20%
 }
-
 
 .colonna80{
   width: 80%
 }
 
+#testimonianze{
+  background-color: white
+}
+
 #testimonianze .colonna50{
   padding: 0 8%;
-  background-color: white
 }
 
 #num-utenti{
@@ -412,13 +423,19 @@ h6{
 }
 
 .colonna25 li{
-  padding-bottom: 6%
-}
-
-.colonna25 li{
-  color: white;
+  padding-bottom: 6%;
+  padding-left: 6%;
   list-style: none;
 }
+
+.colonna25 a{
+  color: white
+}
+
+.colonna25 a:hover{
+  color: #679cd4;
+}
+
 
 .scelta-lingue ul{
   text-align: center;
@@ -432,6 +449,23 @@ h6{
   list-style: none;
   color: white;
   padding-right: 3%
+}
+
+.scelta-lingue a{
+  color: white;
+}
+
+.scelta-lingue a:hover{
+  color: #679cd4;
+}
+
+.social li{
+  display: inline-block;
+  padding-right: 2%
+}
+
+.social i{
+  color: white;
 }
 
 footer hr{
