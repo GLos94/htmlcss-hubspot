@@ -63,6 +63,13 @@ footer{
    z-index: 999;
  }
 
+ .barra-laterale{
+  border-right: 2px solid grey;
+  }
+
+  #selezione-lingua a:nth-child(3){
+    padding-left: 2%
+  }
 
   #menu-navigazione{
     background-color: white;
