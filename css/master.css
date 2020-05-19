@@ -161,8 +161,11 @@ footer{
   margin-bottom: 6%
 }
 
-.colonna20 .orangebutton{
-  margin-left: 65px
+#better-together .orangebutton{
+  background-color: #ff7a59;
+  line-height: 20px;
+  color: white;
+  padding: 4% 4%;
 }
 
 .collaborazione{
@@ -215,13 +218,20 @@ hr{
   clear: both;
 }
 
-.hub1{
-  background-color: white;
+.colonna33{
+  float: left;
   width: 32%;
   margin: 2% 0;
+}
+
+.colonna33:nth-child(2){
+  margin: 2% 2%;
+}
+
+.hub1{
+  background-color: white;
   text-align: center;
-  float: left;
-  padding-bottom: 1.9%;
+  padding-bottom: 2%;
   border-radius: 5px;
 }
 
@@ -231,20 +241,14 @@ hr{
 
 .hub2{
   background-color: white;
-  width: 32%;
-  margin: 2% 2%;
   text-align: center;
-  float: left;
   padding-bottom: 2%;
   border-radius: 5px;
 }
 
 .hub3{
   background-color: white;
-  width: 32%;
-  margin: 2% 0;
   text-align: center;
-  float: left;
   padding-bottom: 2%;
   border-radius: 5px;
 }
@@ -252,6 +256,7 @@ hr{
 .hubs{
   line-height: 25px;
 }
+
 #servizi-offerti i{
   padding-right: 5%;
 }
@@ -351,10 +356,10 @@ span{
   color: white
 }
 
-#potenziale-crescita .paragrafo .riga:first-child{
-  border-bottom: 1px solid white;
-  border-bottom-left-radius: 6%;
-  border-bottom-right-radius: 6%;
+#potenziale-crescita .riga:last-child{
+  border-top: 1px solid white;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
 }
 
 .quadrato1, .quadrato2, .quadrato3{
