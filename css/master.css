@@ -27,12 +27,6 @@ i{
   border-radius: 4px;
 }
 
- .orangebutton-main{
-   background-color: #ff7a59;
-   line-height: 20px;
-   color: white;
-   padding: 4% 4%;
- }
 
 header{
   height: 660px;
@@ -273,6 +267,13 @@ hr{
   padding-bottom: 10%;
 }
 
+#servizi-offerti .orangebutton{
+  background-color: #ff7a59;
+  line-height: 20px;
+  color: white;
+  padding: 4% 4%;
+}
+
 .imm-hub{
   height: 100px;
   margin: 11% 14%;
@@ -350,7 +351,7 @@ span{
   color: white
 }
 
-#potenziale-crescita .riga:first-child{
+#potenziale-crescita .paragrafo .riga:first-child{
   border-bottom: 1px solid white;
   border-bottom-left-radius: 6%;
   border-bottom-right-radius: 6%;
